@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOR YOU</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HALAMAN 1 -->
+    <div class="halaman aktif" id="hal1">
+        <h1>Alloooooo</h1>
+        <img src="Instagram.jpg" alt="Gambar 1">
+        <div>
+            <button onclick="pindahHalaman('hal2')">Yok lanjut lanjut ❯</button>
+        </div>
+    </div>
+
+    <!-- HALAMAN 2 -->
+    <div class="halaman" id="hal2">
+        <h1> Just For You </h1>
+        <p>Mau tau ga?</p>
+        <img src="hamster.jpg" alt="Gambar 2">
+        <div>
+            <button onclick="pindahHalaman('hal1')"> ❮ </button>
+            <button onclick="pindahHalaman('hal3')">Mau mau mau❯</button>
+        </div>
+    </div>
+
+    <!-- HALAMAN 3 -->
+    <div class="halaman" id="hal3">
+        <h1 id="teksLirik">Mana Senyumnya</h1>
+    <audio id="backsound" loop>
+    <source src="mana senyumnya.mp3" type="audio/mpeg">
+    </audio>
+
+<!-- Tombol untuk memutar lagu -->
+<button id="tombolMusik">🎵 Putar Musik</button>
+
+    <!-- Memanggil file JavaScript (taruh di bagian paling bawah) -->
+    <script src="script.js"></script>
+</body>
+</html>

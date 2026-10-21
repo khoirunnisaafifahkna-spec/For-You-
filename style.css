@@ -1,0 +1,67 @@
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: poppins, sans-serif;
+}
+body {
+    font-family: poppins;
+    margin: 10;
+    background-color: #1e1e2e;
+    color: white;
+}
+
+.p {
+    margin: 0x;
+}
+.halaman {
+    display: none;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Cuma halaman yang punya class 'aktif' yang bakal keliatan */
+.halaman.aktif {
+    display: flex;
+}
+
+img {
+    width: 180px;
+    border-radius: 30px;
+    margin: 20px 0;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff79c6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #bd93f9;
+}
+.tombol-gaya {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1abc9c; /* Warna hijau tosca */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tombol-gaya:hover {
+    background-color: #16a085; /* Berubah agak gelap saat kursor mendekat */
+}
